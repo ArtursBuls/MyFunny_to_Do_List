@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+$boxBackground: rgb(192, 235, 175);
+$inputbackColor: rgb(250, 223, 223);
+$buttonPush:red;
+$texOnButtonPush:yellow;
+$listTextColor: rgb(161, 10, 91);
+$buttonTextColor: rgb(4, 0, 255);
+
+.list {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 10px;
+    padding: 2px;
+    color:$listTextColor;
+}
+
+.box{
+    background-color: $boxBackground;
+    border-radius: 3px;  
+}
+
+.button{
+    display: inline-block;
+    background-color: $boxBackground;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    font-size: 8px;
+    font-weight: 700;
+    color: $buttonTextColor;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: $buttonPush;
+}

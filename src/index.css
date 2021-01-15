@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Snowburst+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(205, 197, 240);
+    font-family: 'Snowburst One', cursive;
+    margin: 0;
+}

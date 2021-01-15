@@ -1,0 +1,64 @@
+
+$inputbackColor: rgb(250, 223, 223);
+$headMainColor: rgb(109, 14, 109);
+$buttonPush: rgb(14, 185, 14);
+$texOnButtonPush: yellow;
+$placeholderColor: rgb(206, 212, 206);
+$buttontextColor: rgb(4, 192, 20);
+
+.headmain{
+    color: $headMainColor;
+    font-size: 20px;
+}
+
+.christmas{
+    font-size: 30px;
+}
+
+.input{
+    background-color: $inputbackColor;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;   
+}
+
+.input:hover{
+    cursor: pointer;
+}
+
+::placeholder{
+    color: $placeholderColor;
+}
+
+.button{
+    background-color: $inputbackColor;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 10px;
+    height: 25px;
+    color:$buttontextColor;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button:active{
+    transform: scale(1.2);
+    background-color: $buttonPush;
+    color: $texOnButtonPush;
+}
+
+.mainWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardWrapper{
+    border-radius: 5px;
+    flex-basis: 48%;    
+}
